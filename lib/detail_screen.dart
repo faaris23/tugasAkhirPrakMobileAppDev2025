@@ -6,7 +6,7 @@ class DetailScreen extends StatefulWidget {
   final pokemonDetail;
   final Color color;
 
-  const DetailScreen({Key key, this.heroTag, this.pokemonDetail, this.color}) : super(key: key);
+  const DetailScreen({required Key key, this.heroTag, this.pokemonDetail, required this.color}) : super(key: key);
   @override
   _DetailScreenState createState() => _DetailScreenState();
 }
