@@ -23,7 +23,7 @@ class Pokedex {
 
 class Pokemon {
   final int id;
-  final String number; // Renamed from 'num' to 'number'
+  final String number;
   final String name;
   final String img;
   final List<String> type;
